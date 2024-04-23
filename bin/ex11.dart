@@ -1,6 +1,6 @@
 void main(){
   // positional parameter - 순서 중요
-  cals(int a, int b, int c){
+  int cals(int a, int b, int c){
     int result = a + b + c;
     return result;
   }
@@ -25,7 +25,7 @@ void main(){
 
   // named parameter - 최소 한개는 있어야 한다(가정)
   // required 를 붙이면 기본값 설정x ,
-  int cals3( {required int a, int b=0, int c=0  } ){
+  int cals3( { required int a, int b=0, int c=0  } ){
     int result = a + b - c;
     return result;
   }

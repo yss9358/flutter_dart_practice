@@ -6,7 +6,7 @@ void main(){
     "grape" : "purple"
   };
 
-  // print(fruits["banana"]);
+  print(fruits["banana"]);
 
   Map<String, dynamic> pMap = {};
   pMap["prev"] = true;

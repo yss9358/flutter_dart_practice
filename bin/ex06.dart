@@ -1,7 +1,7 @@
 void main(){
   // 제어문 switch case
 
-  dynamic no = '4';
+  dynamic no = '5';
 
 
   switch(no){

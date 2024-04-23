@@ -2,8 +2,8 @@ void main(){
   // 상수
   // final 은 runtime 시 상수선언됨
   final double pi = 3.14;
-  // print(pi);
-  // print(pi.runtimeType);
+  print(pi);
+  print(pi.runtimeType);
 
   // const 는 buildtime 시 상수선언됨
   const int age = 40;
